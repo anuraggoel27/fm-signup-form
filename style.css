@@ -1,0 +1,147 @@
+body {
+  background-image: url("images/bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%);
+
+  font-family: "Poppins", sans-serif;
+}
+input:focus {
+  outline: none;
+}
+.main
+{
+    height:720px;
+}
+.left {
+  display: inline-block;
+  width: 50%;
+  color: white;
+  position: relative;
+  bottom: 250px;
+}
+.text {
+  padding: 15%;
+}
+.right {
+  display: inline-block;
+  width: 35%;
+  text-align: center;
+}
+h1 {
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.form {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  outline: none;
+  padding-top: 20px;
+}
+.right p {
+  width: 80%;
+  margin: 5px 10% 30px;
+}
+.form-control {
+  padding-bottom: 20px;
+  margin: 10px 10% 0px;
+  position: relative;
+  height: 4rem;
+  width: 80%;
+  border: none;
+}
+input {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid hsl(246, 25%, 77%);
+  color: hsl(249, 10%, 26%);
+  font-weight: 500;
+  padding: 30px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+input:focus {
+  border: 1px solid hsl(249, 10%, 26%);
+}
+i {
+  position: absolute;
+  right: 30px;
+  top: 25px;
+  visibility: hidden;
+}
+small {
+  position: absolute;
+  right: 2%;
+  visibility: hidden;
+  bottom: -17px;
+  color: hsl(0, 100%, 74%);
+  font-weight: 600;
+}
+button {
+  width: 80%;
+  margin: 30px 10% 0px;
+}
+.form-control.success input {
+  border: 2px solid hsl(154, 59%, 51%);
+  background-color: white;
+}
+.form-control.success .fa-check-circle {
+  visibility: visible;
+  color: hsl(154, 59%, 51%);
+}
+
+.form-control.failure .fa-times-circle {
+  visibility: visible;
+  color: hsl(0, 100%, 74%);
+}
+.form-control.failure input {
+  border: 2px solid hsl(0, 100%, 74%);
+}
+.form-control.failure small {
+  visibility: visible;
+}
+.form p {
+  font-size: 10px;
+  font-weight: 500;
+  color: hsl(246, 25%, 77%);
+}
+.btn {
+  width: 80%;
+  color: white;
+  background-color: hsl(154, 59%, 51%);
+  font-weight: 500;
+  height: 50px;
+  line-height: 2;
+}
+.trial {
+  padding: 2% 20%;
+  background-color: hsl(248, 32%, 49%);
+  height: 20%;
+  border-radius: 10px;
+  color: white;
+  margin: 10% 0 3%;
+  box-shadow: 0px 7px 7px hsl(0, 27%, 53%);
+}
+.trial span {
+  font-weight: 600;
+}
+.right-main {
+  position: relative;
+  left: 25%;
+}
+.email-error {
+  width: 100%;
+  padding: 0;
+
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+  box-sizing: border-box;
+}
+
+.error.active {
+  padding: 0.3em;
+}
